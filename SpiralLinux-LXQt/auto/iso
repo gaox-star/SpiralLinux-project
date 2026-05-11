@@ -26,7 +26,7 @@ lb config noauto \
 --initramfs live-boot \
 --iso-publisher SpiralLinux \
 --iso-volume SpiralLinux_LXQt \
---linux-packages "linux-image-amd64/stable-backports linux-headers-amd64/stable-backports" \
+--linux-packages "linux-image-amd64 -t stable-backports linux-headers-amd64 -t stable-backports" \
 --bootappend-live "boot=live config quiet loglevel=0 splash" \
 --memtest memtest86+x64 \
 --win32-loader false

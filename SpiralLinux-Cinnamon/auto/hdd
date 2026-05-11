@@ -23,7 +23,7 @@ lb config noauto \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \
---linux-packages "linux-image-amd64/stable-backports linux-headers-amd64/stable-backports" \
+--linux-packages "linux-image-amd64 -t stable-backports linux-headers-amd64 -t stable-backports" \
 --bootappend-live "boot=live config quiet splashhostname=SpiralLinux" \
 --memtest memtest86+x64 \
 --win32-loader false

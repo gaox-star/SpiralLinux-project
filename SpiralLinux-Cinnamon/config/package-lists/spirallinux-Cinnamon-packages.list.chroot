@@ -5,7 +5,7 @@ acpi
 acpi-support
 acpi-support-base
 alsa-firmware-loaders
-alsa-oss
+
 alsa-tools
 alsa-utils
 amd64-microcode
@@ -33,7 +33,7 @@ calamares-settings-debian
 systemd-timesyncd
 console-setup
 cpio
-cpufrequtils
+linux-cpupower
 
 cryptsetup
 cryptsetup-initramfs
@@ -48,7 +48,7 @@ dconf-gsettings-backend
 debconf-utils
 debian-archive-keyring
 debian-keyring
-deborphan
+
 debsums
 dialog
 dkms
@@ -120,13 +120,13 @@ kpartx
 lame
 less
 libasound2-plugins
-libblockdev-crypto2
+libblockdev-crypto3
 libfile-mimeinfo-perl
 libgl1-mesa-dri
 libgphoto2-l10n
 libgpod4
 libgpod-common
-libimobiledevice6
+libimobiledevice-1.0-6
 libimobiledevice-utils
 libmp3lame0
 libmtp-runtime
@@ -172,7 +172,7 @@ parted
 plymouth
 plymouth-themes
 plymouth-x11
-policykit-1-gnome
+
 printer-driver-all
 printer-driver-all-enforce
 printer-driver-cups-pdf
@@ -184,7 +184,7 @@ pulseaudio-utils
 pv
 pwgen
 python3-btrfsutil
-qt5-gtk2-platformtheme
+
 qt5-xdgdesktopportal-platformtheme
 rar
 rename
@@ -250,7 +250,7 @@ xserver-xorg-input-elographics
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-libinput
-xserver-xorg-input-mutouch
+
 xserver-xorg-input-wacom
 xserver-xorg-video-all
 zenity
@@ -265,7 +265,7 @@ spice-vdagent
 xserver-xorg-video-qxl
 libcanberra-pulse
 libcanberra-gtk3-module
-libcanberra-gtk-module
+libcanberra-gtk3-module
 efibootmgr
 shim-signed
 grub-efi-ia32-bin
@@ -331,7 +331,7 @@ gparted
 network-manager-gnome
 network-manager-openvpn-gnome
 pavucontrol
-software-properties-gtk
+software-properties-qt
 ssh-askpass-gnome
 synaptic
 system-config-printer
