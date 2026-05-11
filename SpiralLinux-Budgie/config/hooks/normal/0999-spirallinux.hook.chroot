@@ -45,7 +45,7 @@ systemctl --global enable wireplumber.service
 ln -s /usr/share/doc/pipewire/examples/ld.so.conf.d/pipewire-jack-x86_64-linux-gnu.conf /etc/ld.so.conf.d/
 ldconfig
 
-### Only 1 locale config, Bookworm still uses /etc/default/locale -- https://groups.google.com/g/linux.debian.bugs.dist/c/6TOOs1L3z3E
+### Only 1 locale config, trixie still uses /etc/default/locale -- https://groups.google.com/g/linux.debian.bugs.dist/c/6TOOs1L3z3E
 cp /etc/default/locale /etc/locale.conf
 rm /etc/default/locale
 ln -s /etc/locale.conf /etc/default/locale

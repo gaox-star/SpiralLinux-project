@@ -19,5 +19,5 @@ chmod -R 700 /var/cache/apt/archives/partial/
 
 # Clean up sources.list: deb-src not needed for normal users, label Backports, HTTP->HTTPS
 sed -i 's|#deb-src.*||g' /etc/apt/sources.list
-sed -i 's|deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware|deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware  #Debian Bookworm Backports|g' /etc/apt/sources.list
+sed -i 's|deb http://deb.debian.org/debian/ trixie-backports main contrib non-free non-free-firmware|deb http://deb.debian.org/debian/ trixie-backports main contrib non-free non-free-firmware  #Debian trixie Backports|g' /etc/apt/sources.list
 sed -i 's|http://|https://|g' /etc/apt/sources.list

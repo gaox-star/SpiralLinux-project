@@ -272,7 +272,7 @@ grub-efi-ia32-signed:i386
 grub-efi-ia32-signed-template:i386
 alsa-ucm-conf
 zstd
-## Bookworm added:
+## trixie added:
 dbus-user-session
 inotify-tools
 gawk

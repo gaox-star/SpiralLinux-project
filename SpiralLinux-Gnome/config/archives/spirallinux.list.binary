@@ -1,6 +1,6 @@
 # Needed for VirtualBox in Debian Stable
-deb https://fasttrack.debian.net/debian-fasttrack/ bookworm-fasttrack main contrib non-free  #Bookworm Fast Track (for VirtualBox)
-deb https://fasttrack.debian.net/debian-fasttrack/ bookworm-backports-staging main contrib non-free  #Bookworm Fast Track Staging
+deb https://fasttrack.debian.net/debian-fasttrack/ trixie-fasttrack main contrib non-free  #trixie Fast Track (for VirtualBox)
+deb https://fasttrack.debian.net/debian-fasttrack/ trixie-backports-staging main contrib non-free  #trixie Fast Track Staging
 
 # Debian Stable
 #deb https://deb.debian.org/debian/ stable main contrib non-free non-free-firmware  #Debian Stable (for upgrades)

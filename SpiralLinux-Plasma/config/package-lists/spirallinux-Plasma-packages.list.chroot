@@ -270,7 +270,7 @@ grub-efi-ia32-signed:i386
 grub-efi-ia32-signed-template:i386
 alsa-ucm-conf
 zstd
-##Bookworm added:
+##trixie added:
 xdg-utils
 dbus-user-session
 inotify-tools
@@ -329,7 +329,7 @@ kmenuedit
 kscreen
 print-manager
 bluedevil
-## Bookworm added:
+## trixie added:
 ksystemstats
 plasma-systemmonitor
 
@@ -347,10 +347,10 @@ xsettingsd
 upower
 onboard
 partitionmanager
-##Bookworm added:
+##trixie added:
 qml-module-qt-labs-platform
 libkf5baloowidgets-bin
-## Bookworm added
+## trixie added
 libreoffice-kf5
 
 
