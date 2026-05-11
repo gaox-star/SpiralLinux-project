@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "I: running $0"
 
-disabled_services="openvpn.service rsync.service smbd.service"
-enabled_services="earlyoom.service nmbd.service avahi-daemon.service cups-browsed.service bluetooth.service cups.service tlp.service systemd-timesyncd.service plymouth.service rsyslog.service zramswap.service haveged.service"
+disabled_services="openvpn.service rsync.service smbd.service cups-browsed.service bluetooth.service cups.service tlp.service"
+enabled_services="earlyoom.service nmbd.service avahi-daemon.service systemd-timesyncd.service plymouth.service rsyslog.service zramswap.service haveged.service"
 
 for service in $disabled_services; do
 	echo "Disabling $service"

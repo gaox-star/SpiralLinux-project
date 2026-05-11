@@ -26,8 +26,8 @@ lb config noauto \
 --initramfs live-boot \
 --iso-publisher SpiralLinux \
 --iso-volume SpiralLinux_Cinnamon \
---linux-packages "linux-image linux-headers" \
---bootappend-live "boot=live config quiet loglevel=0 splash threadirqs" \
+--linux-packages "linux-image-amd64/stable-backports linux-headers-amd64/stable-backports" \
+--bootappend-live "boot=live config quiet loglevel=0 splash" \
 --memtest memtest86+x64 \
 --win32-loader false
 
