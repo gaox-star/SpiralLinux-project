@@ -54,6 +54,7 @@ dialog
 dkms
 dnsmasq-base
 dnsutils
+bind9-dnsutils
 dosfstools
 eject
 ethtool
