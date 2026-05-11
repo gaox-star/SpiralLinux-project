@@ -407,21 +407,9 @@ shotwell
 
 ### Internet ###
 firefox-esr
-libpurple-bin
-pidgin
-pidgin-extprefs
-pidgin-gnome-keyring
-pidgin-otr
-pidgin-plugin-pack
-purple-discord
-purple-lurch
-purple-rocketchat
-purple-xmpp-carbons
-purple-xmpp-http-upload
 
-thunderbird
-transmission-cli
-transmission-gtk
+
+
 
 
 ### Office ####
