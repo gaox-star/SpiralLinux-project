@@ -28,8 +28,7 @@ while getopts "di" option; do
             lb clean
             lb config
             lb build
-            mv live-image-amd64.packages ${NAME}_x86-64.packages
-            mv live-image-amd64.hybrid.iso ${NAME}_x86-64.iso;;
+
      \?) # Invalid option
          echo "Error: Invalid option"
          exit;;
