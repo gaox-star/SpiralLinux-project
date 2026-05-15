@@ -30,7 +30,7 @@ lb config noauto \
 --initramfs live-boot \
 --iso-publisher SpiralLinux \
 --iso-volume SpiralLinux_Plasma \
---linux-packages "linux-image-amd64 -t stable-backports linux-headers-amd64 -t stable-backports" \
+--linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config loglevel=6 " \
 --memtest memtest86+x64 \
 --win32-loader false
