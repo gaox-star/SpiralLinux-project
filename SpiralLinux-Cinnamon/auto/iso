@@ -7,7 +7,6 @@ lb config noauto \
 --apt-source-archives false \
 --apt-indices false \
 --archive-areas 'main contrib non-free non-free-firmware' \
---backports true \
 --security true \
 --updates true \
 --source false \

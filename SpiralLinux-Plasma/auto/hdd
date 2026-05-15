@@ -8,7 +8,6 @@ lb config noauto \
 --apt-indices true \
 --backports true \
 --archive-areas 'main contrib non-free non-free-firmware' \
---backports true \
 --security true \
 --updates true \
 --source false \

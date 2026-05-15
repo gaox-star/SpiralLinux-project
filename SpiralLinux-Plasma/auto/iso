@@ -9,7 +9,6 @@ lb config noauto \
 --backports true \
 --apt-options "--default-release ${RELEASE}-backports"\
 --archive-areas 'main contrib non-free non-free-firmware' \
---backports true \
 --security true \
 --updates true \
 --source false \
