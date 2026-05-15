@@ -7,9 +7,6 @@ lb config noauto \
 --apt-source-archives false \
 --apt-indices true \
 --backports true \
---architectures amd64 \
---apt-options "--default-release ${RELEASE}-backports" \
---architectures amd64 \
 --archive-areas 'main contrib non-free non-free-firmware' \
 --backports true \
 --security true \
