@@ -29,7 +29,7 @@ while getopts "di" option; do
             lb config
             lb build
 
-     \?) # Invalid option
+
          echo "Error: Invalid option"
          exit;;
    esac
