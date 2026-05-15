@@ -346,7 +346,7 @@ gparted
 network-manager-gnome
 network-manager-openvpn-gnome
 pavucontrol-qt
-software-properties-qt
+
 ssh-askpass-gnome
 synaptic
 system-config-printer
